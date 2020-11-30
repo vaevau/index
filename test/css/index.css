@@ -9,7 +9,7 @@ html,body,ul,li,a,img{
 .search,  .ticket-date, .bottom-menu{
     margin: 0 40px;
 }
-.home-page, .container{
+.home-page, .container, .footer-menu{
     width:750px;
     margin: auto;
 }
@@ -256,18 +256,19 @@ html,body,ul,li,a,img{
 
 
 .manager-container{
-    background: url(../img/File\ 24.png)no-repeat;
-    box-shadow: 1px 1px 2px 1px #ccc;
-    border-radius: 6px;
-   padding: 48px 30px;
+    background: url(../img/File\ 24.png)no-repeat 0 0;
+    box-shadow: 0px 0px 1px 1px#DEB887 inset;
+    border-radius: 10px;
+   padding: 36px 40px;
+   overflow: hidden;
    margin-left: 30px;
+   width: 82%;
 }
 .manager{
     display: flex;
     justify-content: space-between ;
     flex-wrap: wrap-reverse;
     margin-left: 50px;
-    margin-top: -20px;
 }
 .manager div{  
     
@@ -282,4 +283,54 @@ html,body,ul,li,a,img{
     background: url(../img/File\ 1.png)no-repeat 60px 0;
     color: #ccc;
     padding-right: 16px;
+}
+
+/* 底部菜单 */
+
+.footer-menu{
+}
+
+.footer-menu-bg{
+    margin: 0 auto;
+}
+.footer-menu-bg ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu-bg li{
+    justify-content: space-between;
+}
+.footer-menu-bg img{
+
+    margin-left: 20px;
+}
+
+.footer-menu-txt{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 94%;
+    padding-top: 40px;
+  box-shadow: 0px -10px 10px -10px  #ccc ;
+}
+
+.active, .guanjia, .xingcheng, .my{
+    padding: 58px 10px;
+
+}
+.active{
+    color: blue;
+    background: url(../img/File\ 25.png)no-repeat ;
+    
+}
+.guanjia{
+    background: url(../img/File\ 23.png)no-repeat 16px 0px;
+    
+}
+.xingcheng{
+    
+    background: url(../img/File\ 22.png)no-repeat;
+}
+.my{
+    background: url(../img/File\ 12.png)no-repeat;
 }
