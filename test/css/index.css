@@ -56,18 +56,11 @@ html,body,ul,li,a,img{
 }
 .curren-place{
     position: absolute;
-    right: 32px;
-
-}
-.curren-place:after{
-    background:url(../img/File\ 11.png)no-repeat;
-    width: 8px;
-    height: 8px;
-    padding: 10px;
-    content: '';
-    background-size: 80%;
-    position: absolute;
-    right: -36px;
+    top: 10px;
+    right: 2px;
+    background:url(../img/File\ 11.png)no-repeat 92px 20px;
+    background-size: 20%;
+    padding: 20px 26px;
 }
 
 
@@ -109,21 +102,12 @@ html,body,ul,li,a,img{
 .total-days{
     position: absolute;
     right:20px;
-    top: 24px;
-    font-size: 14px;
+    top: 6px;
+    padding: 20px 22px;
     color: #ccc;
-}
-.total-days:after{
-    background:url(../img/File\ 1.png)no-repeat;
-    width: 8px;
-    height: 8px;
-    padding: 10px;
-    content: '';
-    background-size: 55%;
-    position: absolute;
-    right: -30px;
-    top: 2px;
-
+    background:url(../img/File\ 1.png)no-repeat 60px 22px;
+    font-size: 14px;
+    background-size: 20%;
 }
 
 
