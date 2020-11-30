@@ -17,7 +17,7 @@ html,body,ul,li,a,img{
 .head-bg {
     width: 100%;
     height: 750px;
-    background: url(../img/File\ 2.png);
+    background: url(../img/theme.png);
 }
 .ticket-msg{
     width: 750px;
@@ -58,7 +58,7 @@ html,body,ul,li,a,img{
     position: absolute;
     top: 10px;
     right: 2px;
-    background:url(../img/File\ 11.png)no-repeat 92px 20px;
+    background:url(../img/place-ico.png)no-repeat 92px 20px;
     background-size: 20%;
     padding: 20px 26px;
 }
@@ -105,7 +105,7 @@ html,body,ul,li,a,img{
     top: 6px;
     padding: 20px 22px;
     color: #ccc;
-    background:url(../img/File\ 1.png)no-repeat 60px 22px;
+    background:url(../img/arrow-r.png)no-repeat 60px 22px;
     font-size: 14px;
     background-size: 20%;
 }
@@ -113,7 +113,7 @@ html,body,ul,li,a,img{
 
 /* 预定按钮 */
 .reserve-btn{
-    background: url(../img/File\ 3.png)no-repeat;
+    background: url(../img/reverse-btn-bg.png)no-repeat;
     width: 638px;
     height: 130px;
     margin: 0 auto;
@@ -135,15 +135,15 @@ html,body,ul,li,a,img{
     
 }
 .my-collect{
-    background: url(../img/File\ 13.png)no-repeat 0px 2px;
+    background: url(../img/collect-ico.png)no-repeat 0px 2px;
 
 }
 .my-history{
-    background: url(../img/File\ 19.png)no-repeat;
+    background: url(../img/history-ico.png)no-repeat;
 
 }
 .my-order{
-    background: url(../img/File\ 20.png)no-repeat;
+    background: url(../img/order-ico.png)no-repeat;
 
 }
 
@@ -165,23 +165,21 @@ html,body,ul,li,a,img{
 
 }
 .note{
-    background: url(../img/File\ 5.png)no-repeat -2px 2px;
+    background: url(../img/red-horn.png)no-repeat -2px 2px;
     background-size: 10%;
     padding-left: 24px;
 }
 .to-use{
     color: red;
-    background: url(../img/File\ 4.png)no-repeat 80px 4px;
+    background: url(../img/arrow-r.png)no-repeat 70px 2px;
     padding-left: 24px;
-    background-size: 8%;
+    background-size: 20%;
     padding-right: 20px;
 }
 
 
 /* 图片展示区域 */
-.container{
-    
-}
+
 .show-img{
     padding: 16px 28px;
 }
@@ -195,14 +193,10 @@ html,body,ul,li,a,img{
 .show-img ul li{
     margin-top: 8px;
 }
-.show-img img{
-    
-}
 
 .rcmd-hotel ul {
    display: flex;
    margin-left: -20px;
-   margin-top: 10px;
 }
 .rcmd-hotel ul li{
     width: 280px;
@@ -228,9 +222,7 @@ html,body,ul,li,a,img{
     width: 92%;
     margin: 20px auto;
 }
-.quality-show ul li{
-    
-}
+
 .hotel-logo{
     margin: 20px auto;
     width: 40%;
@@ -240,7 +232,7 @@ html,body,ul,li,a,img{
 
 
 .manager-container{
-    background: url(../img/File\ 24.png)no-repeat 0 0;
+    background: url(../img/housekeeper-pic.png)no-repeat;
     box-shadow: 0px 0px 1px 1px#DEB887 inset;
     border-radius: 10px;
    padding: 36px 40px;
@@ -254,9 +246,7 @@ html,body,ul,li,a,img{
     flex-wrap: wrap-reverse;
     margin-left: 50px;
 }
-.manager div{  
-    
-}
+
 .today-into{
     padding-bottom: 10px;
     width: 80%;
@@ -264,15 +254,13 @@ html,body,ul,li,a,img{
     
 }
 .self-into{
-    background: url(../img/File\ 1.png)no-repeat 60px 0;
+    background: url(../img/arrow-r.png)no-repeat 64px 3px;
+    background-size: 20%;
     color: #ccc;
     padding-right: 16px;
 }
-
 /* 底部菜单 */
 
-.footer-menu{
-}
 
 .footer-menu-bg{
     margin: 0 auto;
@@ -304,17 +292,17 @@ html,body,ul,li,a,img{
 }
 .active{
     color: blue;
-    background: url(../img/File\ 25.png)no-repeat ;
+    background: url(../img/home-ico.png)no-repeat ;
     
 }
 .guanjia{
-    background: url(../img/File\ 23.png)no-repeat 16px 0px;
+    background: url(../img/housekeeper-ico.png)no-repeat 16px 0px;
     
 }
 .xingcheng{
     
-    background: url(../img/File\ 22.png)no-repeat;
+    background: url(../img/trip-ico.png)no-repeat;
 }
 .my{
-    background: url(../img/File\ 12.png)no-repeat;
+    background: url(../img/my-ico.png)no-repeat;
 }
