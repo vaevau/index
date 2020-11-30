@@ -286,7 +286,7 @@ html,body,ul,li,a,img{
   box-shadow: 0px -10px 10px -10px  #ccc ;
 }
 
-.active, .guanjia, .xingcheng, .my{
+.active, .housekeeper, .trip, .my{
     padding: 58px 10px;
 
 }
@@ -295,11 +295,11 @@ html,body,ul,li,a,img{
     background: url(../img/home-ico.png)no-repeat ;
     
 }
-.guanjia{
+.housekeeper{
     background: url(../img/housekeeper-ico.png)no-repeat 16px 0px;
     
 }
-.xingcheng{
+.trip{
     
     background: url(../img/trip-ico.png)no-repeat;
 }
