@@ -1,0 +1,308 @@
+html,body,ul,li,a,img{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+/* 公用代码 */
+.search,  .ticket-date, .bottom-menu{
+    margin: 0 40px;
+}
+.home-page, .container, .footer-menu{
+    width:750px;
+    margin: auto;
+}
+/* 头部背景 */
+.head-bg {
+    width: 100%;
+    height: 750px;
+    background: url(../img/theme.png);
+}
+.ticket-msg{
+    width: 750px;
+    box-shadow: #ccc;
+    margin-top: -300px;
+}
+/* 搜索相关*/
+.ticket-msg-cont{
+   width: 92%;
+   margin: 0 auto;
+   background: white;
+   border-radius: 4px;
+   box-shadow: 0px 2px 3px 1px #ccc;
+}
+.search{
+    display: flex;
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.place{
+    font-weight: bold;
+    font-family: '微软雅黑';
+}
+.fengexian{
+    width: 1px;
+    height: 20px;
+    background: #ccc;
+    display: block;
+    margin: 0 8px;
+}
+.search-input{
+    margin: 0 5px;
+    font-size: 14px;
+    color: #ccc;
+}
+.curren-place{
+    position: absolute;
+    top: 10px;
+    right: 2px;
+    background:url(../img/place-ico.png)no-repeat 92px 20px;
+    background-size: 20%;
+    padding: 20px 26px;
+}
+
+
+/* 入住/离开日期 */
+.ticket-date{
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.into-out-note{
+    color: #ccc;
+    font-size: 12px;
+    left: 0;
+    top: 12px;
+    position: absolute;
+}
+.into-out-note span{
+    padding-right: 120px;
+}
+.hengxian{
+    height: 1px;
+    width: 40px;
+    background: #ccc;
+    position: relative;
+    top: 28px;
+    left: 90px;
+}
+.into-out-time{
+    display: flex;
+    -border: 1px solid yellow;
+    margin: 18px 20px 0 0;
+}
+.into-time{
+
+}
+.out-time{
+    margin-left: 114px;
+}
+.total-days{
+    position: absolute;
+    right:20px;
+    top: 6px;
+    padding: 20px 22px;
+    color: #ccc;
+    background:url(../img/arrow-r.png)no-repeat 60px 22px;
+    font-size: 14px;
+    background-size: 20%;
+}
+
+
+/* 预定按钮 */
+.reserve-btn{
+    background: url(../img/reverse-btn-bg.png)no-repeat;
+    width: 638px;
+    height: 130px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+/* head底部菜单栏 */
+.bottom-menu{
+    display: flex;
+    padding: 20px  0;
+    justify-content: space-between;
+    font-family: '微软雅黑';
+    font-size: 14px;
+}
+.bottom-menu div{
+    padding:0 0 0 24px;
+    background-size: 24%;
+    
+}
+.my-collect{
+    background: url(../img/collect-ico.png)no-repeat 0px 2px;
+
+}
+.my-history{
+    background: url(../img/history-ico.png)no-repeat;
+
+}
+.my-order{
+    background: url(../img/order-ico.png)no-repeat;
+
+}
+
+
+/* 优惠券提示 */
+.coupon-container{
+    margin: 20px auto;
+    width: 92%;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px 2px #ccc;
+}
+.coupon-note{
+    display: flex;
+    padding: 12px 0;
+    margin: 0px 40px;
+    justify-content: space-between;
+   
+
+}
+.note{
+    background: url(../img/red-horn.png)no-repeat -2px 2px;
+    background-size: 10%;
+    padding-left: 24px;
+}
+.to-use{
+    color: red;
+    background: url(../img/arrow-r.png)no-repeat 70px 2px;
+    padding-left: 24px;
+    background-size: 20%;
+    padding-right: 20px;
+}
+
+
+/* 图片展示区域 */
+
+.show-img{
+    padding: 16px 28px;
+}
+
+.show-img ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.show-img ul li{
+    margin-top: 8px;
+}
+
+.rcmd-hotel ul {
+   display: flex;
+   margin-left: -20px;
+}
+.rcmd-hotel ul li{
+    width: 280px;
+    margin-left: 20px;   
+}
+.rcmd-hotel img{
+    width: 100%;
+    height: 100%;
+    
+}
+.rcmd-hotel div{
+    font-weight:bold;
+}
+
+.grow-pic {flex-grow: 1;}
+.shrink-pic {width: 100%;}
+
+.quality-show{
+   width: 750px;
+}
+.quality-show ul{
+    
+    width: 92%;
+    margin: 20px auto;
+}
+
+.hotel-logo{
+    margin: 20px auto;
+    width: 40%;
+}
+
+/* 页尾动态信息 */
+
+
+.manager-container{
+    background: url(../img/housekeeper-pic.png)no-repeat;
+    box-shadow: 0px 0px 1px 1px#DEB887 inset;
+    border-radius: 10px;
+   padding: 36px 40px;
+   overflow: hidden;
+   margin-left: 30px;
+   width: 82%;
+}
+.manager{
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap-reverse;
+    margin-left: 50px;
+}
+
+.today-into{
+    padding-bottom: 10px;
+    width: 80%;
+    color: #ccc;
+    
+}
+.self-into{
+    background: url(../img/arrow-r.png)no-repeat 64px 3px;
+    background-size: 20%;
+    color: #ccc;
+    padding-right: 16px;
+}
+/* 底部菜单 */
+
+
+.footer-menu-bg{
+    margin: 0 auto;
+}
+.footer-menu-bg ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu-bg li{
+    justify-content: space-between;
+}
+.footer-menu-bg img{
+
+    margin-left: 20px;
+}
+
+.footer-menu-txt{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 94%;
+    padding-top: 40px;
+  box-shadow: 0px -10px 10px -10px  #ccc ;
+}
+
+.active, .housekeeper, .trip, .my{
+    padding: 58px 10px;
+
+}
+.active{
+    color: blue;
+    background: url(../img/home-ico.png)no-repeat ;
+    
+}
+.housekeeper{
+    background: url(../img/housekeeper-ico.png)no-repeat 16px 0px;
+    
+}
+.trip{
+    
+    background: url(../img/trip-ico.png)no-repeat;
+}
+.my{
+    background: url(../img/my-ico.png)no-repeat;
+}
