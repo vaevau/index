@@ -1,0 +1,161 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.home-page{
+    width:750px;
+    margin: auto;
+}
+/* 头部背景 */
+.head-bg {
+    width: 100%;
+    height: 750px;
+    background: url(../img/File\ 2.png);
+}
+.ticket-msg{
+    position: absolute;
+    width: 750px;
+    box-shadow: #ccc;
+    top: 650px;
+    text-align: center;
+}
+/* 搜索相关*/
+.ticket-msg-cont{
+   width: 95%;
+   margin: 0 auto;
+   background: white;
+   border-radius: 4px;
+   border: 1px solid #ccc;
+}
+.search{
+    display: flex;
+    padding: 25px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.place{
+    font-weight: bold;
+    font-family: '微软雅黑';
+}
+.fengexian{
+    width: 1px;
+    height: 20px;
+    background: #ccc;
+    display: block;
+    margin: 0 8px;
+}
+.search-input{
+    margin: 0 5px;
+    font-size: 14px;
+    color: #ccc;
+}
+.curren-place{
+    position: absolute;
+    right: 32px;
+
+}
+.curren-place:after{
+    background:url(../img/File\ 11.png)no-repeat;
+    width: 8px;
+    height: 8px;
+    padding: 10px;
+    content: '';
+    background-size: 80%;
+    position: absolute;
+    right: -36px;
+}
+
+
+/* 入住/离开日期 */
+.ticket-date{
+    padding: 12px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.into-out-note{
+    color: #ccc;
+    font-size: 12px;
+    left: 0;
+    top: 12px;
+    position: absolute;
+}
+.into-out-note span{
+    padding-right: 120px;
+}
+.hengxian{
+    height: 1px;
+    width: 40px;
+    background: #ccc;
+    position: relative;
+    top: 28px;
+    left: 90px;
+}
+.into-out-time{
+    display: flex;
+    -border: 1px solid yellow;
+    margin: 18px 20px 0 0;
+}
+.into-time{
+
+}
+.out-time{
+    margin-left: 114px;
+}
+.total-days{
+    position: absolute;
+    right:20px;
+    top: 24px;
+    font-size: 14px;
+    color: #ccc;
+}
+.total-days:after{
+    background:url(../img/File\ 1.png)no-repeat;
+    width: 8px;
+    height: 8px;
+    padding: 10px;
+    content: '';
+    background-size: 55%;
+    position: absolute;
+    right: -30px;
+    top: 2px;
+
+}
+
+
+/* 预定按钮 */
+.reserve-btn{
+    background: url(../img/File\ 3.png)no-repeat;
+    width: 638px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+
+/* head底部菜单栏 */
+.bottom-menu{
+    display: flex;
+    padding: 12px  0;
+    margin: 0 20px;
+    justify-content: space-between;
+    font-family: '微软雅黑';
+    font-size: 14px;
+}
+.bottom-menu div{
+    padding:0 0 0 24px;
+    background-size: 24%;
+    
+}
+.my-collect{
+    background: url(../img/File\ 13.png)no-repeat 0px 2px;
+
+}
+.my-history{
+    background: url(../img/File\ 19.png)no-repeat;
+
+}
+.my-order{
+    background: url(../img/File\ 20.png)no-repeat;
+
+}
